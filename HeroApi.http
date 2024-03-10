@@ -1,0 +1,7 @@
+@HeroApi_HostAddress = http://localhost:5210
+
+// nos permite poder hacer llamadas a la api de superheros
+GET {{HeroApi_HostAddress}}/api/SuperHero
+Accept: application/json
+
+###
